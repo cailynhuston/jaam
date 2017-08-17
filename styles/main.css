@@ -1,0 +1,46 @@
+html, body {
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Homemade Apple', Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+p {
+	font-size: 16px;
+	line-height: 19px;
+	font-weight: 100;
+}
+
+html {
+	height: 100%;
+	/* makes sure our HTML takes up 100% of the browser window */
+	font-size: 100%;
+}
+
+body {
+	font-family: 'Karla', Helvetica, Arial, sans-serif;
+	color: #333333;
+	min-height: 100%;
+	/* says the height of the body must be, at minimum, 100% of the window */
+}
+
+body.landing {
+	background-color: #ffffff;
+}
+
+.nav {
+     padding: 0.5rem;
+     background-color: rgb(101,18,95);
+ }
+ 
+ nav.logo-container {
+     position: relative;
+     left: 2rem;
+ }

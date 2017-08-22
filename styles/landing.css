@@ -22,10 +22,10 @@ body.landing {
 	text-align: center;
 	color: #ffffff;
 	font-size: 4rem;
-	font-weight: 300;
-	text-transform:none;
+	font-weight: 200;
+	text-transform:uppercase;
 	letter-spacing: 0.5rem;
-	text-shadow: 1px 1px 5px #333333;
+	text-shadow: 1px 1px 5px #676778;
 }
 
 .selling-points {

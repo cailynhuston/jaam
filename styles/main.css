@@ -12,15 +12,16 @@ html {
 }
 
 body {
-	font-family: 'Karla';
+	font-family: 'Nunito';
+	font-weight:200;
 	color: #ffffff;
 	min-height: 100%;
-	background-color: #444444;
+	background-color: #272933;
 }
 
 h1 {
-	font-family: 'Homemade Apple';
-	font-weight: 700;
+	font-family: 'Nunito';
+	font-weight: 300;
 }
 
 h2,
@@ -28,14 +29,15 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Homemade Apple';
-	font-weight: 400;
+	font-family: 'Nunito';
+	font-weight: 600;
+	letter-spacing: 0.05rem;
 }
 
 
 .navbar {
 	padding: 0.5rem;
-	background-color: #444444;
+	background-color: #272933;
 }
 
 .navbar .logo {

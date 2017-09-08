@@ -1,0 +1,95 @@
+body.collection {
+	background-image: url(../assets/images/blurred_backgrounds/blur_bg_2.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+
+
+.navbar {
+	padding: 0.5rem;
+	background-color: #272933;
+	position: relative;
+	z-index: 1;
+}
+
+.navbar .logo {
+	position: relative;
+	max-width: 150px;
+	left: 10px;
+	cursor: pointer;
+}
+
+.navbar .links-container {
+	display: table;
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100px;
+	color: white;
+}
+
+.links-container .navbar-link {
+	display: table-cell;
+	position: relative;
+	height: 100%;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	vertical-align: middle;
+	color: white;
+	font-size: 0.625rem;
+	letter-spacing: 0.05rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.links-container .navbar-link:hover {
+	color: #FBB03B;
+}
+
+.links-container .navbar-link:active {
+	color: #FBB03B;
+	background-color: white;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 64rem;
+}
+
+.album-covers {
+	position: relative;
+}
+
+.collection-album-container {
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.collection-album-container .caption {
+	margin-top: 10px;
+}
+
+.collection-album-container .caption p {
+	font-size: 1rem;
+	font-weight: 300;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.collection-album-container .caption p a.album-name {
+	color: white;
+}
+
+.collection-album-container img {
+	width: 80%;
+}

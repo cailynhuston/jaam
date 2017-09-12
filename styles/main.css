@@ -14,9 +14,9 @@ html {
 body {
 	font-family: 'Nunito';
 	font-weight:200;
-	color: #ffffff;
+	color: #333333;
 	min-height: 100%;
-	background-color: #272933;
+	background-color: #f7f7f7;
 }
 
 h1 {
@@ -37,13 +37,17 @@ h6 {
 
 .navbar {
 	padding: 0.5rem;
-	background-color: #272933;
+	background-color: #f7f7f7;
 }
 
 .navbar .logo {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	position: relative;
-	max-width: 150px;
-	left: 10px;
+	max-width: 110px;
+	
 }
 
 .container {

@@ -10,16 +10,18 @@ body.collection {
 
 .navbar {
 	padding: 0.5rem;
-	background-color: #272933;
+	background-color: #f7f7f7;
 	position: relative;
 	z-index: 1;
 }
 
 .navbar .logo {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	position: relative;
-	max-width: 150px;
-	left: 10px;
-	cursor: pointer;
+	max-width: 110px;
 }
 
 .navbar .links-container {
@@ -27,7 +29,7 @@ body.collection {
 	position: absolute;
 	top: 0;
 	right: 0;
-	height: 100px;
+	height: 130px;
 	color: white;
 }
 
@@ -38,7 +40,7 @@ body.collection {
 	padding-left: 1rem;
 	padding-right: 1rem;
 	vertical-align: middle;
-	color: white;
+	color: 333333;
 	font-size: 0.625rem;
 	letter-spacing: 0.05rem;
 	font-weight: 700;
